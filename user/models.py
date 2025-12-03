@@ -5,7 +5,7 @@ from django.contrib.auth.base_user import BaseUserManager
 
 
 class UserManager(BaseUserManager):
-    """Define a model manager for User model with no username field."""
+    """Define a model manager for User model with no email field."""
 
     use_in_migrations = True
 
